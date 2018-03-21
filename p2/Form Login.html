@@ -3,6 +3,7 @@
   <title>Form Login</title> 
 </head>
 <style type="text/css">
+
 .aa{
   width: 400px;
   height: 370px;
@@ -23,6 +24,7 @@
   font-size: 18px;
 }
 .aa input[type="text"]{
+  background-color: rgb(255, 255, 255);
   width: 200px;
   height: 35px;
   border:0px;
@@ -34,6 +36,7 @@
   padding-left: 5px;
 }
 .aa input[type="password"]{
+  background-color: rgb(255, 255, 255);
   width: 200px;
   height: 35px;
   border:0px;
@@ -59,15 +62,15 @@
 </style>
 </head>
 <div class="aa">
-<body>
+<body background = "bg.jpg">
   <h1>Form Login</h1>
   <p>Silahkan anda mengisi dahulu form login dulu</p>
 
-  <formaction="/internet.html" method="get">
+  <form action="../internet.html" method="get">
     Username :<br>
-    <input type="Text" name="Username" ><br>
+    <input type="Text" name="Username"  ><br>
     Password:<br>
-    <input type="Password" name="Password" ><br>
+    <input type="Password" name="Password"  ><br>
     Apakah Anda Ingin Menyimpan Password<br>
     <input type="radio" name="Pilih" value="Ya" checked> Ya<br>
     <input type="radio" name="Pilih" value="Tidak"> Tidak<br>
